@@ -17,7 +17,11 @@ You need to solder 4 jumpers:
 - SDA
 - SCL
 
+I highly suggest to unpin the display connector and to unscrew the PCB completly before soldering.
+If you do not want to risk the PCB, you can also opt to cut the cables running from the PCB to the sensor and soldering the jumpers to them, while also resoldering them.
+
 <img src="images/PCB.jpeg" width="500px">
+
 
 
 
