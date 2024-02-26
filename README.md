@@ -32,12 +32,6 @@ You can easily find them by googling "xxxxx board I2C default pins".
 
 
 
-
-## Authors
-
-- [@Novecento99](https://github.com/Novecento99/AlbinoAir/)
-
-
 ## Optimizations
 
 - esp sleep instead of delay to save power
@@ -52,3 +46,8 @@ You can easily find them by googling "xxxxx board I2C default pins".
 I want to thankyou @XXXX for the teardown that showed the possiblity to connect a microcontroller,
   @senserison to build a really good sensor 
 @ikea to encapsuledet it in a economical good lookkig piece. 
+
+
+## Authors
+
+- [@Novecento99](https://github.com/Novecento99/AlbinoAir/)
