@@ -17,7 +17,7 @@ You need to solder 4 jumpers:
 - SDA
 - SCL
 
-
+<img src="images/PCB.jpeg" width="500px">
 
 
 
