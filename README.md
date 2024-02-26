@@ -31,6 +31,11 @@ First, I
 - better webpage user experience
 -
 
+- standardizzare l'orario di upload dati
+- migliorare sito
+
+- connessione a google home?
+
 ## Acknowledgements
 
 I want to thankyou @XXXX for the teardown that showed the possiblity to connect a microcontroller,
