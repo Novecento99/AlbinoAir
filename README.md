@@ -30,16 +30,16 @@ The DSA and SCL corresponds to pins specific to the board your using.
 For example, the Esp8266 Nodemcu has as default pins D1 and D2.
 You can easily find them by googling "xxxxx board I2C default pins".
 
-
+This git also provides the script to upload to the microcontroller using the Arduino IDE.
+It has to be 
 
 ## Optimizations
 
 - esp sleep instead of delay to save power
 - better webpage user experience
 - fix the upload time (e.g. at xx:00)
-- improve the website
 
-- connection to google home
+- connection to google home ( ? )
 
 ## Acknowledgements
 
