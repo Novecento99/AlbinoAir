@@ -2,6 +2,8 @@
 
 this projects accesses the Ikea VINDSTYRKA air quality sensor raw data and send them to thingspeak channels, which can therefore visualized in a comprehnsive website (e.g. https://novecento99.github.io/AlbinoAir/) (yeah I'm not good at making websites). 
 
+<img src="Images/ikea.jpeg" width="500px">
+
 To do so, you will need:
 - a microcontroller (such as ESP32, ESP8266 or an Arduino with wifi shield)
 - some jumpers
@@ -13,6 +15,7 @@ https://sensirion.com/products/catalog/SEN54/
 
 
 ## How to build this project
+
 
 ### step 1: teardown and soldering
 First, you have to tear down the Ikea device. 
