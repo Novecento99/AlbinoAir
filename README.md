@@ -55,7 +55,7 @@ Upload the .ino file and you are to go to connect your microcontroller to the IK
 You need to set some parameters in the file: 
 
 ## Things to do
-
+- find a name to it
 - esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
 - better webpage and graphs
 - set a fixed upload time (e.g. at xx:00)
