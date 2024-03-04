@@ -29,7 +29,7 @@ This is the PCB inside, I marked each connection point you could need:
 
 <img src="Images/PCB.jpeg" width="500px">
 
-Specifically, you need to solder 4 jumpers:
+Specifically, you need to solder 4 lo:
 - Vcc (5V or 3V depending on your microcontroller supply voltage)
 - GND (ground)
 - SDA (one of the two pins to perform the I2C connection)
@@ -40,21 +40,27 @@ If you do not want to risk the PCB, you can also opt to cut the cables running f
 
 
 ### step 2: connect your microcontroller
-You can now connect your microcontroller, DSA and SCL are the two I2C protocol wires.
-The DSA and SCL corresponds to pins specific to the board your using. 
+
+4 wires: connect Vcc and Ground respectively to the correct pins to power your micro, while DSA and SCL are the two I2C protocol wires: the DSA and SCL corresponds to pins specific to the board your using. 
+
 For example, the Esp8266 Nodemcu has as default pins D1 and D2.
 You can easily find them by googling "xxxxx board I2C default pins".
 
 This git also provides the script to upload to the microcontroller using the Arduino IDE.
 It has to be 
 
+### step 3: 
+
+Upload the .ino file and you are to go to connect your microcontroller to the IKEA thing.
+You need to set some parameters in the file: 
+
 ## Things to do
 
-- esp sleep instead of delay to save power
-- better webpage user experience
-- fix the upload time (e.g. at xx:00)
+- esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
+- better webpage and graphs
+- set a fixed upload time (e.g. at xx:00)
 
-- connection to google home ( ? )
+- a connection to google home would be very cool
 
 ## Acknowledgements
 
