@@ -55,6 +55,7 @@ Upload the .ino file and you are to go to connect your microcontroller to the IK
 You need to set some parameters in the file: 
 
 ## Things to do
+- channel to upload number of resets
 - find a name to it
 - esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
 - better webpage and graphs
