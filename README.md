@@ -36,7 +36,7 @@ Specifically, you need to solder 4 lo:
 - SCL (the other pin to perform the I2C connection)
 
 
-If you do not want to risk the PCB, you can also opt to cut the cables running from the PCB to the sensor and connecting the jumpers to them, while also resoldering them.
+If you do not want to risk the PCB, you can also opt to cut the cables running from the PCB to the sensor and soldering jumpers to them "hijacking" from the cables itself.
 
 
 ### step 2: connect your microcontroller
@@ -46,19 +46,34 @@ If you do not want to risk the PCB, you can also opt to cut the cables running f
 For example, the Esp8266 Nodemcu has as default pins D1 and D2.
 You can easily find them by googling "xxxxx board I2C default pins".
 
-This git also provides the script to upload to the microcontroller using the Arduino IDE.
-It has to be 
+This git provides the script (xxxxx.ino) to upload to the microcontroller using the Arduino IDE.
 
-### step 3: 
+There are two versions: one doesn't need internet connection and can be useful to perform tests. 
+It just reads data from the sensor and display it on the serial connection.
+
+
+If you can read the data on the serial, you are ready to upload in cloud
+
+### step 3: upload data to the cloud
 
 Upload the .ino file and you are to go to connect your microcontroller to the IKEA thing.
 You need to set some parameters in the file: 
 
+
+### step 4: deploy a website
+
+
+
+### step 5: share this github
+
+
+
+
 ## Things to do
-- channel to upload number of resets
+- channel to upload number of resets DONE
 - find a name to it
 - esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
-- better webpage and graphs
+- better webpage and graphs 
 - set a fixed upload time (e.g. at xx:00)
 
 - a connection to google home would be very cool
@@ -66,6 +81,6 @@ You need to set some parameters in the file:
 ## Acknowledgements
 
 I want to thankyou @XXXX for the teardown that showed the possiblity to connect a microcontroller,
-  @senserison to build a really good sensor 
-@ikea to encapsuledet it in a economical good lookkig piece. 
+  @senserison to build a really good sensor
+@ikea to encapsuledet it in a economical good lookkig piece and @olazzari to help with everything.
 
