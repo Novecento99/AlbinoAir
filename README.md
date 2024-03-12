@@ -19,7 +19,7 @@ https://sensirion.com/products/catalog/SEN54/
 ## How to build this project
 
 
-### step 1: teardown and soldering
+### step 1: teardown 
 First, you have to tear down the Ikea device. 
 User @oleksiikutuzov provided great pictures to do so: https://github.com/oleksiikutuzov/IKEA-VINDSTYRKA/blob/main/teardown.md
 
@@ -38,8 +38,8 @@ Specifically, you need to solder 4 lo:
 
 If you do not want to risk the PCB, you can also opt to cut the cables running from the PCB to the sensor and soldering jumpers to them "hijacking" from the cables itself.
 
-
-### step 2: connect your microcontroller
+### step 2: soldering
+### step 3: connect your microcontroller
 
 4 wires: connect Vcc and Ground respectively to the correct pins to power your micro, while DSA and SCL are the two I2C protocol wires: the DSA and SCL corresponds to pins specific to the board your using. 
 
@@ -54,17 +54,14 @@ It just reads data from the sensor and display it on the serial connection.
 
 If you can read the data on the serial, you are ready to upload in cloud
 
-### step 3: upload data to the cloud
+### step 4: upload data to the cloud
 
 Upload the .ino file and you are to go to connect your microcontroller to the IKEA thing.
 You need to set some parameters in the file: 
 
 
-### step 4: deploy a website
+### step 5: deploy a website
 
-
-
-### step 5: share this github
 
 
 
