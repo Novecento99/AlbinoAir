@@ -7,10 +7,10 @@ this projects accesses the Ikea VINDSTYRKA air quality sensor raw data and send 
 <img src="Images/ikea.jpeg" width="500px">
 
 To do so, you will need:
-- a microcontroller (such as ESP32, ESP8266 or an Arduino with wifi shield)
+- a microcontroller (such as ESP32, ESP8266 or a D1 Mini)
 - some jumpers
 - basic soldering skills
-- screwdrivers
+- screwdriver (type XXXX): You will need a long Torx T6 for outer screws, Philips 2.0 for the inner frame and Philips 1.5 for PCB screws
 
 The Ikea VINDSTYRKA is based on the SEN54 sensor, which is the top choice for its price class. Providing good accuracy for 10+ years.
 https://sensirion.com/products/catalog/SEN54/
@@ -23,7 +23,7 @@ https://sensirion.com/products/catalog/SEN54/
 First, you have to tear down the Ikea device. 
 User @oleksiikutuzov provided great pictures to do so: https://github.com/oleksiikutuzov/IKEA-VINDSTYRKA/blob/main/teardown.md
 
-I HIGHLY suggest to unpin the display connector and to unscrew the PCB completly before soldering.
+I HIGHLY suggest to unpin the display connector and to unscrew the PCB completly before soldering like this:
 
 This is the PCB inside, I marked each connection point you could need:
 
