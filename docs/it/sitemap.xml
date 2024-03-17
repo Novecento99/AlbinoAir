@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.org/01-intro/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/01-intro/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/01-intro/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/01-intro/index.html" />
+  </url>
+  <url>
+    <loc>https://example.org/02-build_project/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/02-build_project/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/02-build_project/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/02-build_project/index.html" />
+  </url>
+  <url>
+    <loc>https://example.org/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/categories/index.html" />
+  </url>
+  <url>
+    <loc>https://example.org/more/link/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/more/link/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/more/link/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/more/link/index.html" />
+  </url>
+  <url>
+    <loc>https://example.org/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/index.html" />
+  </url>
+  <url>
+    <loc>https://example.org/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.org/en/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en-us" href="https://example.org/en/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://example.org/tags/index.html" />
+  </url>
+</urlset>
