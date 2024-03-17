@@ -56,28 +56,45 @@ If you do not want to risk the PCB, you can also opt to cut the cables running f
 
 ### step 3: connect your microcontroller and test the connection
 
-4 wires: connect Vcc and Ground respectively to the correct pins to power your micro, while DSA and SCL are the two I2C protocol wires: the DSA and SCL corresponds to pins specific to the board your using. 
+4 wires: connect Vcc and Ground respectively to the correct pins to power your micro, while DSA and SCL are the two I2C protocol wires: the DSA and SCL corresponds to pins specific to the board your using.
 
-For example, the Esp8266 Nodemcu has as default pins D1 and D2.
-You can easily find them by googling "xxxxx board I2C default pins".
+You can easily find them by googling "yourbard I2C default pins". Here are some of them:
 
-This git provides the script (xxxxx.ino) to upload to the microcontroller using the Arduino IDE.
+|  **Board**  | **SDA** | **SCL** |
+|:-----------:|:-------:|:-------:|
+| ESP32 WROOM |  GPIO21 |  GPIO22 |
+| Arduino Uno |    A4   |    A5   |
+|   D1 Mini   |  GPIO4  |  GPIO5  |
 
-There are two versions: one doesn't need internet connection and can be useful to perform tests. 
-It just reads data from the sensor and display it on the serial connection.
 
+Now, download and install the ([Arduino IDE](https://www.arduino.cc/en/software)), install through the Arduino library manager the thingspeak library. And install by adding them as a zip the lastest versions of XXX and XXX (when I did this git the latest versions where respectivly YY and ZZ)
+
+Upload it to your microcontroller and connect it to your Ikea Vindistrka
 
 If you can read the data on the serial monitor (beware to set the correct baudrate), you are ready to upload in cloud
 
 ### step 4: upload data to the cloud 
+First of all, it is necessary to create a channel on ThingSpeak.com to which the data can be uploaded. 
 
-First of all, you need to make an account on thingspeak. The account is free. Make a new channel with 8 fields.
+You can then Create a Channel, give your channel a name such as "Nuvolino - yourCity".
+
+Go to Channels-> make a new channel.
+8 fields with this order:
+- PM1.0
+- PM2.5
+- PM4.0
+- PM10.0
+- Humidity
+- Temperature
+- tVOC
+- Nuvolino status
+
+Hit save channel, and you will be taken to the current view of your new channel. Go to the API Keys tab and find your Write API Key. You will need to insert this into the sketch in order to write to your channel.
+
 
 
 Download from this git the XXXX.ino and configure the starting istructions:
 --> code 
-
-
 
 Upload the XXXXX.ino file and you are done! open your channel, you will be able to see the data updated in real time in the channel view. You can also make gauges and numbers display by using the widget functions of thingspeak
 
@@ -92,7 +109,7 @@ more info here:
 ## Things to do
 - Unmarry from thingspeak, an open source method would be better
 - channel to upload number of resets DONE
-- find a name to it
+- find a name to it DONE
 - esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
 - better webpage and graphs 
 - set a fixed upload time (e.g. at xx:00)
