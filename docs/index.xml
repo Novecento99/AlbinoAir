@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dashboard principale on Nuvolino</title>
+    <link>https://omartek.github.io/Nuvolino/index.html</link>
+    <description>Recent content in Dashboard principale on Nuvolino</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it</language>
+    <atom:link href="https://omartek.github.io/Nuvolino/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dispositivo Ikea</title>
+      <link>https://omartek.github.io/Nuvolino/01-intro/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://omartek.github.io/Nuvolino/01-intro/index.html</guid>
+      <description>Il dispositivo Questo progetto accede ai dati grezzi del sensore di qualità dell&amp;rsquo;aria Ikea VINDSTYRKA e li invia ai canali di Thingspeak, per poi visualizzarli nella homepage di questo sito.
+Per realizzare il progetto, sono necessari:
+un microcontrollore (come ESP32, ESP8266 o un D1 Mini) alcuni ponticelli per saldare il micro al sensore abilità di base nella saldatura cacciaviti: le viti esterne sono ad esagono incassato, mentre quelle interne sono le classiche phillips un account thingspeak (gratuito) Il VINDSTYRKA di Ikea si basa sul sensore SEN54, che è la scelta migliore per la sua classe di prezzo.</description>
+    </item>
+    <item>
+      <title>Assemblaggio</title>
+      <link>https://omartek.github.io/Nuvolino/02-build_project/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://omartek.github.io/Nuvolino/02-build_project/index.html</guid>
+      <description>Come costruire questo progetto fase 1: smontaggio Per prima cosa, dovete smontare il dispositivo Ikea. Fate attenzione e fatelo con molta attenzio, è facile che si rovini (come è successo al mio primo tentativo). L&amp;rsquo;utente @oleksiikutuzov ha fornito ottime immagini per farlo, potete seguire il suo tutorial qui: https://github.com/oleksiikutuzov/IKEA-VINDSTYRKA/blob/main/teardown.md
+Riporterò qui alcuni passaggi solo per completezza:
+passo 2: saldatura Suggerisco vivamente di staccare il connettore del display e di svitare completamente il PCB prima di saldare in questo modo:</description>
+    </item>
+  </channel>
+</rss>
