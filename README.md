@@ -113,7 +113,8 @@ more info here:
 - esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
 - better webpage and graphs 
 - set a fixed upload time (e.g. at xx:00)
-
+- invetigate opened issue for better accuracy
+- 
 - a connection to google home would be very cool
 - translations ?
 
