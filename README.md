@@ -119,4 +119,4 @@ more info here:
 
 ## Acknowledgements
 
-@olazzari for the endless utility provided, Ikea engineers to have lended an hand to makers by exposing and naming the test points so conveniently
+@olazzari for the utility provided (and endless patience), Ikea engineers to have lended an hand to makers by exposing and naming the test points so conveniently
