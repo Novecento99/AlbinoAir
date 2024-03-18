@@ -1,36 +1,39 @@
-Qualità dell'aria Albino
- 
-PM 2.5 in tempo reale (aggiornamento ogni minuto)
-<iframe width="200" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/808202"></iframe>
+# NUvolino
 
-<iframe width="450" height="200" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/806935"></iframe>
+Qualità dell'aria Albino PM 2.5 in tempo reale (aggiornamento ogni minuto) <iframe width="200" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/808202"></iframe><iframe width="450" height="200" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/806935"></iframe>![livelliSalute](HealthLevels.png)
 
-<img src="HealthLevels.png" alt="livelliSalute" style="width:450px;height:540px;">
- 
-<p>per maggiori informazioni <a href="https://it.wikipedia.org/wiki/Particolato">Pagina Wikipedia Particolato</a>.
-<h2>PM 2.5 ultimi 60 minuti</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=pm+2.5&type=line"></iframe>  
+per maggiori informazioni [Pagina Wikipedia Particolato](https://it.wikipedia.org/wiki/Particolato).
 
-<h2>PM 2.5 ultime 24 ore</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=1440&timescale=15&title=pm+2.5&type=line"></iframe> 
+## PM 2.5 ultimi 60 minuti
 
-<h2>PM 2.5 ultimi 7 giorni</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10080&timescale=15&title=pm+2.5&type=line"></iframe>  
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=60&amp;title=pm+2.5&amp;type=line"></iframe>
 
-<h2>Temperatura ultime 24h</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=1440&timescale=15&title=Temperatura&type=line"></iframe>
+## PM 2.5 ultime 24 ore
 
-<h2>Temperatura ultimi 7 giorni</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10080&timescale=60&title=Temperature&type=line"></iframe>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=1440&amp;timescale=15&amp;title=pm+2.5&amp;type=line"></iframe>
 
-<h2>Umidità ultimi 7 giorni</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10080&timescale=60&title=Umidità&type=line"></iframe>
+## PM 2.5 ultimi 7 giorni
 
-<h2>tVOC (not very accurate)</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=1440&timescale=15&type=line&update=15"></iframe>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=10080&amp;timescale=15&amp;title=pm+2.5&amp;type=line"></iframe>
 
- <h2>Server status</h2>
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/8?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=14400&type=line&update=15"></iframe>
- 
-<p><a href="https://thingspeak.com/channels/2442379">Ulteriori Grafici</a>.</p>
+## Temperatura ultime 24h
 
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/6?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=1440&amp;timescale=15&amp;title=Temperatura&amp;type=line"></iframe>
+
+## Temperatura ultimi 7 giorni
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/6?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=10080&amp;timescale=60&amp;title=Temperature&amp;type=line"></iframe>
+
+## Umidità ultimi 7 giorni
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/5?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=10080&amp;timescale=60&amp;title=Umidità&amp;type=line"></iframe>
+
+## tVOC (not very accurate)
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/7?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=1440&amp;timescale=15&amp;type=line&amp;update=15"></iframe>
+
+## Server status
+
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/8?bgcolor=%23ffffff&amp;color=%23d62020&amp;dynamic=true&amp;results=14400&amp;type=line&amp;update=15"></iframe>
+
+[Ulteriori Grafici](https://thingspeak.com/channels/2442379).
