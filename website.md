@@ -1,9 +1,9 @@
 Qualità dell'aria Albino
  
 PM 2.5 in tempo reale (aggiornamento ogni minuto)
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/808202"></iframe>
+<iframe width="200" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/808202"></iframe>
 
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/806935"></iframe>
+<iframe width="450" height="200" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/806935"></iframe>
 
 <img src="HealthLevels.png" alt="livelliSalute" style="width:450px;height:540px;">
  
