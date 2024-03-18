@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Main dashboard on Nuvolino</title>
-    <link>https://example.org/en/index.html</link>
+    <link>https://omartek.github.io/Nuvolino/en/index.html</link>
     <description>Recent content in Main dashboard on Nuvolino</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://example.org/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://omartek.github.io/Nuvolino/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ikea device</title>
-      <link>https://example.org/en/01-intro/index.html</link>
+      <link>https://omartek.github.io/Nuvolino/en/01-intro/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/en/01-intro/index.html</guid>
+      <guid>https://omartek.github.io/Nuvolino/en/01-intro/index.html</guid>
       <description>The device This projects accesses the Ikea VINDSTYRKA air quality sensor raw data and send them to Thingspeak channels, which can therefore visualized in a the comprehensive homepage.
 To do so, you will need:
 a microcontroller (such as ESP32, ESP8266 or a D1 Mini) some jumpers to solder your micro to the sensor basic soldering skills screwdrives: the outer screws are heaxagon, while the inner ones are classical phillips a (free) thingspeak account The Ikea VINDSTYRKA is based on the SEN54 sensor, which is the top choice for its price class.</description>
     </item>
     <item>
       <title>Build the project</title>
-      <link>https://example.org/en/02-build_project/index.html</link>
+      <link>https://omartek.github.io/Nuvolino/en/02-build_project/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/en/02-build_project/index.html</guid>
+      <guid>https://omartek.github.io/Nuvolino/en/02-build_project/index.html</guid>
       <description>How to build this project step 1: teardown First, you have to tear down the Ikea device. Be careful and do it with patience it&amp;rsquo;s easy to ruin it (as my first try went). User @oleksiikutuzov provided great pictures to do so, you can follow their tutorial: https://github.com/oleksiikutuzov/IKEA-VINDSTYRKA/blob/main/teardown.md
 I&amp;rsquo;m going to report here some steps just for completation:
 step 2: soldering I HIGHLY suggest to unpin the display connector and to unscrew the PCB completly before soldering like this:</description>

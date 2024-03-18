@@ -1,0 +1,71 @@
+baseURL = 'https://omartek.github.io/Nuvolino/'
+title = 'Nuvolino'
+theme = 'hugo-theme-relearn'
+
+defaultContentLanguage = 'it'
+additionalContentLanguage = ['en']
+
+[languages]
+  [languages.en]
+    languageName = 'English'
+    languageCode = 'en-us'
+    title = 'Nuvolino'
+    weight = 1
+
+  [languages.it]
+    languageName = 'Italiano'
+    languageCode = 'it'
+    title = "Nuvolino"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+[[menu.shortcuts]]
+    identifier = 'ds'
+    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    url = 'https://github.com/Novecento99/Nuvolino/tree/main'
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-bullhorn'></i> Links"
+    url = 'more/link/'
+    weight = 20
+
+[[menu.shortcuts]]
+    identifier = 'hugodoc'
+    name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+    url = 'https://gohugo.io/'
+    weight = 30
+
+[params]
+[[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'relearn-light'
+
+[[params.themeVariant]]
+    identifier = 'relearn-dark'
+
+[[params.themeVariant]]
+    auto = ['zen-light', 'zen-dark']
+    identifier = 'zen-auto'
+    name = 'Zen Light/Dark'
+
+[[params.themeVariant]]
+    identifier = 'zen-light'
+
+[[params.themeVariant]]
+    identifier = 'zen-dark'
+
+[[params.themeVariant]]
+    identifier = 'neon'
+
+
+
