@@ -1,12 +1,10 @@
-<body style="background-color:#9dce9c">
-	
-<h1>Qualità dell'aria Albino</h1>
+Qualità dell'aria Albino
  
-<h2>PM 2.5 in tempo reale (aggiornamento ogni minuto)</h2>
+PM 2.5 in tempo reale (aggiornamento ogni minuto)
 <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/808202"></iframe>
-<h2></h2>
+
 <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/widgets/806935"></iframe>
-<h2></h2>
+
 <img src="HealthLevels.png" alt="livelliSalute" style="width:450px;height:540px;">
  
 <p>per maggiori informazioni <a href="https://it.wikipedia.org/wiki/Particolato">Pagina Wikipedia Particolato</a>.
@@ -36,10 +34,3 @@
  
 <p><a href="https://thingspeak.com/channels/2442379">Ulteriori Grafici</a>.</p>
 
-
-<script type="text/javascript" src="https://www.counters-free.net/count/dzyu"></script><br>
-
-<a href='http://www.freevisitorcounters.com'>free counter</a>  
-</body>
-</div>
-</html>
