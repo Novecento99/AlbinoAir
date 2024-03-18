@@ -1,5 +1,3 @@
-test test test
-
 <body style="background-color:#9dce9c">
 	
 <h1>Qualità dell'aria Albino</h1>
@@ -41,15 +39,7 @@ test test test
 
 <script type="text/javascript" src="https://www.counters-free.net/count/dzyu"></script><br>
 
-<a href='http://www.freevisitorcounters.com'>free counter</a> 
-<script type='text/javascript' src='https://whomania.com/ctr?id=05580e94de5752a6933d300f54e90f4cb4f7b9cb'></script>
-
- <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-<md-block src="README.md">
-	`nonexistent.md` was *not* found
-</md-block>
-
- 
+<a href='http://www.freevisitorcounters.com'>free counter</a>  
 </body>
 </div>
 </html>
