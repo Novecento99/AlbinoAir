@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=0.8">
-<div>
+test test test
+
 <body style="background-color:#9dce9c">
-
-
+	
 <h1>Qualità dell'aria Albino</h1>
  
 <h2>PM 2.5 in tempo reale (aggiornamento ogni minuto)</h2>
