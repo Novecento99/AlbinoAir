@@ -1,5 +1,3 @@
-# NUVOLINO 2
-
 ## Qualità dell'aria ad Albino
 
 ### PM 2.5 in tempo reale (aggiornamento ogni minuto)
