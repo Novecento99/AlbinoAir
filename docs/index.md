@@ -14,6 +14,26 @@ per maggiori informazioni <a href="https://it.wikipedia.org/wiki/Particolato">Pa
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=pm+2.5&type=line"></iframe>
 
+<style>
+      #target {
+        width: 400px;
+        height: 300px;
+        overflow-y: auto;
+        overflow-x: auto;
+        resize: both;
+        position: relative;
+        z-index: 2;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+
+  <div id="target">
+      <iframe width="100%" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10080&timescale=15&title=pm+2.5&type=line"></iframe> 
+    </div>
 ### PM 2.5 ultime 24 ore
 
 <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2442379/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=1440&timescale=15&title=pm+2.5&type=line"></iframe> 
