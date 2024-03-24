@@ -23,25 +23,23 @@ https://sensirion.com/products/catalog/SEN54/
 
 
 ### step 1: teardown 
-First, you have to tear down the Ikea device. Be careful and do it with patience it's easy to ruin it (as my first try went). 
-User @oleksiikutuzov provided great pictures to do so, you can follow their tutorial: https://github.com/oleksiikutuzov/IKEA-VINDSTYRKA/blob/main/teardown.md
+First, you have to tear down the Ikea device. Be careful and do it with patience. 
 
-I'm going to report here some steps just for completation:
+with an hexagon screwdriver take out the first 4 screws:
+![alt text](image.png)
 
+secondly, with a sharp knife remove the glue and deattach the screen
+![alt text2](image-1.png)
 
-
+a cat will spawn to judge your work
+![alt text3](image-1.png)
 
 
 ### step 2: soldering
 
-I HIGHLY suggest to unpin the display connector and to unscrew the PCB completly before soldering like this:
+hat i HIGLY suggest now is to **NOT** solder on test points, since they are very delicate and chances are that you're going to break the ikea microcontroller. 
 
-// insert photos here
-
-
-Those are the relevant pins available:
-
-<img src="Images/PCB.jpeg" width="500px">
+Instead, take the cable that connect the sensor to the PCB, cut it in half and therefore solder 4 cables to the microcontroller.
 
 Specifically, you need to solder 4 wires:
 - Vcc (5V or 3V depending on your microcontroller supply voltage)
@@ -50,9 +48,8 @@ Specifically, you need to solder 4 wires:
 - SCL (the other pin to perform the I2C connection)
 
 
-If you do not want to risk the PCB, you can also opt to cut the cables running from the PCB to the sensor and soldering jumpers to them "hijacking" from the cables itself. This is my (messy) first try for example:
+> servono le foto
 
-// photo here
 
 ### step 3: connect your microcontroller and test the connection
 
@@ -71,7 +68,7 @@ Now, download and install the ([Arduino IDE](https://www.arduino.cc/en/software)
 
 Upload it to your microcontroller and connect it to your Ikea Vindistrka
 
-If you can read the data on the serial monitor (beware to set the correct baudrate), you are ready to upload in cloud
+If you can read the data on the serial monitor (beware to set the correct baudrate), you are ready to upload data to the cloud!
 
 ### step 4: upload data to the cloud 
 First of all, it is necessary to create a channel on ThingSpeak.com to which the data can be uploaded. 
@@ -91,12 +88,15 @@ Go to Channels-> make a new channel.
 
 Hit save channel, and you will be taken to the current view of your new channel. Go to the API Keys tab and find your Write API Key. You will need to insert this into the sketch in order to write to your channel.
 
+Download from this git firmware/Nuvolino.ino and 
+configure the starting istructions:
 
+>unsigned long Channel_ID = YourChannelIdHere;  //replace with your Channel ID
+const char *API_key = "YourKeyHere";
+const char *ssid = "Your Wifi SSID here";  // replace with your wifi ssid and wpa2 key
+const char *pass = "Your Wifi Password here";
 
-Download from this git the XXXX.ino and configure the starting istructions:
---> code 
-
-Upload the XXXXX.ino file and you are done! open your channel, you will be able to see the data updated in real time in the channel view. You can also make gauges and numbers display by using the widget functions of thingspeak
+Upload the firmware and you are done! open your channel, you will be able to see the data updated in real time in the channel view. You can also make gauges and numbers display by using the widget functions of thingspeak
 
 ### step 5: deploy a website
 to make a website you just need to download the index.html in this git and substitute the iframes with the ones that you can easily take from your thingspeak channel
@@ -107,12 +107,6 @@ more info here:
 
 
 ## Things to do
-- Unmarry from thingspeak, an open source method would be better
-- channel to upload number of resets DONE
-- find a name to it DONE
-- esp sleep instead of delay to save power, currently a delay(600000) (lol) it's implemented
-- better webpage and graphs 
-- set a fixed upload time (e.g. at xx:00)
 - invetigate opened issue for better accuracy
 - 
 - a connection to google home would be very cool
