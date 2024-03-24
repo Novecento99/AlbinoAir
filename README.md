@@ -64,7 +64,9 @@ You can easily find them by googling "yourbard I2C default pins". Here are some 
 |   D1 Mini   |  GPIO4  |  GPIO5  |
 
 
-Now, download and install the ([Arduino IDE](https://www.arduino.cc/en/software)), install through the Arduino library manager the thingspeak library. And install by adding them as a zip the lastest versions of XXX and XXX (when I did this git the latest versions where respectivly YY and ZZ)
+Now, download and install the [([Arduino IDE](https://www.arduino.cc/en/software))](https://github.com/Sensirion/arduino-i2c-sen5x), install through the Arduino library manager the thingspeak library. And install by adding them as a zip the lastest versions of XXX and XXX (when I did this git the latest versions where respectivly YY and ZZ)
+
+[([Sen5X Github](https://github.com/Sensirion/arduino-i2c-sen5x))]
 
 Upload it to your microcontroller and connect it to your Ikea Vindistrka
 
