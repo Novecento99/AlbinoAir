@@ -1,7 +1,5 @@
 # Nuvolino
 
-WORK IN PROGRESS 
-
 this projects accesses the Ikea VINDSTYRKA air quality sensor raw data and send them to thingspeak channels, which can therefore visualized in a comprehnsive website (e.g. https://novecento99.github.io/Nuvolino/) (yeah I'm not good at making websites). 
 
 <img src="Images/ikea.jpeg" width="500px">
@@ -18,26 +16,26 @@ The Ikea VINDSTYRKA is based on the SEN54 sensor, which is the top choice for it
 
 https://sensirion.com/products/catalog/SEN54/
 
-
 ## How to build this project
-
 
 ### step 1: teardown 
 First, you have to tear down the Ikea device. Be careful and do it with patience. 
 
 with an hexagon screwdriver take out the first 4 screws:
-![alt text](image.png)
+![alt text](Images/first.png)
 
 secondly, with a sharp knife remove the glue and deattach the screen
-![alt text2](image-1.png)
+![alt text2](Images/second.png)
 
 a cat will spawn to judge your work
-![alt text3](image-1.png)
+![alt text3](Images/cat.png)
 
+this it the PCB
+![alt text4](Images/PCB.jpeg)
 
 ### step 2: soldering
 
-hat i HIGLY suggest now is to **NOT** solder on test points, since they are very delicate and chances are that you're going to break the ikea microcontroller. 
+What I HIGLY suggest now is to **NOT** solder on test points, since they are very delicate and chances are that you're going to break the ikea microcontroller. 
 
 Instead, take the cable that connect the sensor to the PCB, cut it in half and therefore solder 4 cables to the microcontroller.
 
@@ -47,9 +45,7 @@ Specifically, you need to solder 4 wires:
 - SDA (one of the two pins to perform the I2C connection)
 - SCL (the other pin to perform the I2C connection)
 
-
-> servono le foto
-
+> need to put here photos
 
 ### step 3: connect your microcontroller and test the connection
 
@@ -64,7 +60,8 @@ You can easily find them by googling "yourbard I2C default pins". Here are some 
 |   D1 Mini   |  GPIO4  |  GPIO5  |
 
 
-Now, download and install the [([Arduino IDE](https://www.arduino.cc/en/software))](https://github.com/Sensirion/arduino-i2c-sen5x), install through the Arduino library manager the thingspeak library. And install by adding them as a zip the lastest versions of XXX and XXX (when I did this git the latest versions where respectivly YY and ZZ)
+Now, download and install the [([Arduino IDE](https://www.arduino.cc/en/software))](https://github.com/Sensirion/arduino-i2c-sen5x), install through the Arduino library manager the thingspeak library. 
+And install by adding them as a zip.
 
 [([Sen5X Github](https://github.com/Sensirion/arduino-i2c-sen5x))]
 
@@ -105,14 +102,10 @@ to make a website you just need to download the index.html in this git and subst
 
 Then, upload the index.html in a github project (or just clone this one) and go to settings->XXXX. There you can take your website online with a simple click. 
 
-more info here: 
-
-
 ## Things to do
-- invetigate opened issue for better accuracy
-- 
+- implement read_raw data to avoid spikes on reset
 - a connection to google home would be very cool
-- translations ?
+- translations 
 
 ## Acknowledgements
 
