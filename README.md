@@ -22,9 +22,11 @@ https://sensirion.com/products/catalog/SEN54/
 First, you have to tear down the Ikea device. Be careful and do it with patience. 
 
 with an hexagon screwdriver take out the first 4 screws:
+
 ![alt text](Images/first.png)
 
 secondly, with a sharp knife remove the glue and deattach the screen:
+
 ![alt text2](Images/second.png)
 
 a cat will spawn to judge your work
@@ -32,6 +34,7 @@ a cat will spawn to judge your work
 ![alt text3](Images/cat.png)
 
 this it the PCB:
+
 ![alt text4](Images/PCB.jpeg)
 
 ### step 2: soldering
