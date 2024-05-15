@@ -27,7 +27,8 @@ with an hexagon screwdriver take out the first 4 screws:
 secondly, with a sharp knife remove the glue and deattach the screen:
 ![alt text2](Images/second.png)
 
-a cat will spawn to judge your work:
+a cat will spawn to judge your work
+
 ![alt text3](Images/cat.png)
 
 this it the PCB:
